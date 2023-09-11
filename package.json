@@ -1,0 +1,33 @@
+{
+  "name": "@hexlet/code",
+  "version": "1.0.0",
+  "type": "module",
+  "bin": {
+    "gendiff": "bin/gendiff.js"
+  },
+  "description": "[![Actions Status](https://github.com/wq4rsz/frontend-project-46/workflows/hexlet-check/badge.svg)](https://github.com/wq4rsz/frontend-project-46/actions)",
+  "main": "bin/gendiff.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wq4rsz/frontend-project-46.git"
+  },
+  "author": "wq4rsz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wq4rsz/frontend-project-46/issues"
+  },
+  "homepage": "https://github.com/wq4rsz/frontend-project-46#readme",
+  "dependencies": {
+    "commander": "^10.0.1",
+    "dos2unix": "^1.1.2",
+    "node": "^20.6.0",
+    "noder": "^0.0.8",
+    "r-script": "^0.0.4"
+  },
+  "devDependencies": {
+    "minimatch": "^3.0.2"
+  }
+}
