@@ -21,13 +21,6 @@
   },
   "homepage": "https://github.com/wq4rsz/frontend-project-46#readme",
   "dependencies": {
-    "commander": "^10.0.1",
-    "dos2unix": "^1.1.2",
-    "node": "^20.6.0",
-    "noder": "^0.0.8",
-    "r-script": "^0.0.4"
-  },
-  "devDependencies": {
-    "minimatch": "^3.0.2"
+    "commander": "^10.0.1"
   }
 }
