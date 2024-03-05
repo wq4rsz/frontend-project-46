@@ -8,7 +8,7 @@
   "description": "[![Actions Status](https://github.com/wq4rsz/frontend-project-46/workflows/hexlet-check/badge.svg)](https://github.com/wq4rsz/frontend-project-46/actions)",
   "main": "../src/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "npx jest"
   },
   "repository": {
     "type": "git",
@@ -23,5 +23,11 @@
   "dependencies": {
     "commander": "^10.0.1",
     "lodash": "^4.17.21"
+  },
+  "devDependencies": {
+    "eslint": "^8.50.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.28.1",
+    "eslint-plugin-jest": "^27.4.2"
   }
 }
